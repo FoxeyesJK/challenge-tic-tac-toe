@@ -1,25 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
 
-function App() {
+import Signup from './components/Signup'
+import Game from './components/Game'
+
+import { withStyles } from '@material-ui/core/styles'
+import { appStyle } from './style/appStyle'
+
+import Score from './components/Score'
+
+const App = ({ classes }) => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [isGameOn, setIsGameOn] = useState(false)
+  const [score, setScore] = useState({
+    USER: 0,
+    AI: 0,
+    TIE: 0
+  })
+
+
+  useEffect(() => {
+    if (isLoggedIn)
+      setIsGameOn(true)
+  }, [isGameOn])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.rootContainer}>
+      <div>
+        <h1 className={classes.header}>
+          Tic Tac Toe
+        </h1>
+        {
+          !isLoggedIn &&
+          <Signup 
+            setIsLoggedIn={setIsLoggedIn} 
+            setIsLoading={setIsLoading}
+            setIsGameOn={setIsGameOn}
+            isLoading={isLoading}
+          />  
+        }
+        {
+          isGameOn && 
+          <div>
+          <Game 
+            setIsLoading={setIsLoading}
+            setIsGameOn={setIsGameOn}
+            setScore={setScore}
+            score={score}
+            isLoading={isLoading}
+          />
+          <Score
+            score={score}
+          />
+          </div>
+        } 
+      </div>
     </div>
   );
 }
 
-export default App;
+App.propTypes = {
+  classes: PropTypes.object.isRequired
+}
+
+export default withStyles(appStyle)(App);
