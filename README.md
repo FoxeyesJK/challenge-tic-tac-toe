@@ -44,7 +44,7 @@
 ![image](https://user-images.githubusercontent.com/25089799/110226922-14578500-7ec1-11eb-9e9d-f212116fe51d.png)
 
 <p align="center">Game Result</p>
-![image](https://user-images.githubusercontent.com/25089799/110226936-2cc79f80-7ec1-11eb-9515-3d2d38125e33.png)
+![image](https://user-images.githubusercontent.com/25089799/110226959-541e6c80-7ec1-11eb-8a93-918dac75d3ca.png)
 	
 **Implementation Idea**
 * Implementing suggest move algorithm
