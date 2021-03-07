@@ -13,6 +13,7 @@
 * Only 3x3 tic-tac-toe
 
 **Architecture**
+
 ![image](https://user-images.githubusercontent.com/25089799/110226788-f0477400-7ebf-11eb-89eb-8242f661aa97.png)
 
 **Setup Instructions**
@@ -34,16 +35,16 @@
 **UI**
 
 <p align="center">Login</p>
-![image](https://user-images.githubusercontent.com/25089799/110226806-13722380-7ec0-11eb-9773-452406907b82.png)
+![image](https://user-images.githubusercontent.com/25089799/110226916-03a70f00-7ec1-11eb-9168-4d895882b890.png)
 
 <p align="center">Login Fail</p>
-![image](https://user-images.githubusercontent.com/25089799/110226844-65b34480-7ec0-11eb-879e-080844f68ad5.png)
+![image](https://user-images.githubusercontent.com/25089799/110226907-f0943f00-7ec0-11eb-99eb-2ceb9114c6a3.png)
 
 <p align="center">Box Hover</p>
-![image](https://user-images.githubusercontent.com/25089799/110226826-3ef50e00-7ec0-11eb-92a2-2a002bde07c5.png)
+![image](https://user-images.githubusercontent.com/25089799/110226922-14578500-7ec1-11eb-9e9d-f212116fe51d.png)
 
 <p align="center">Game Result</p>
-![image](https://user-images.githubusercontent.com/25089799/110226820-2edd2e80-7ec0-11eb-8b8b-fe4d614afdf5.png)
+![image](https://user-images.githubusercontent.com/25089799/110226936-2cc79f80-7ec1-11eb-9515-3d2d38125e33.png)
 	
 **Implementation Idea**
 * Implementing suggest move algorithm
