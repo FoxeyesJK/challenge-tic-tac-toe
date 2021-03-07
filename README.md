@@ -16,7 +16,7 @@
 
 **Architecture**
 
-![image](https://user-images.githubusercontent.com/25089799/110226788-f0477400-7ebf-11eb-89eb-8242f661aa97.png)
+![image](https://user-images.githubusercontent.com/25089799/110227215-02c3ac80-7ec4-11eb-8efd-78311d5f1df5.png)
 
 **Setup Instructions**
 * Cloning git repository
