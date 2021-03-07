@@ -1,7 +1,9 @@
-# challenge-simulation
+# challenge-tic-tac-toe
+
+
 
 **Requirements**
-* Create a page that the trainee should only view the simulations that their client has access to and assign simulations to the clients.
+* Create a Tic-Tac-Toe web application that allows users to play against our AI server
 
 **Tech Stack**
 * Frontend: React
@@ -33,18 +35,14 @@
   * Game Result: Geneated popup with the result and allow a new game to start
 
 **UI**
+![image](https://user-images.githubusercontent.com/25089799/110226959-541e6c80-7ec1-11eb-8a93-918dac75d3ca.png)
 
-<p align="center">Login</p>
-![image](https://user-images.githubusercontent.com/25089799/110227032-06eeca80-7ec2-11eb-82cf-af80a1cc6fba.png)
-
-<p align="center">Login Fail</p>
-![image](https://user-images.githubusercontent.com/25089799/110227028-00f8e980-7ec2-11eb-8a89-775e929df45e.png)
-
-<p align="center">Box Hover</p>
 ![image](https://user-images.githubusercontent.com/25089799/110226968-6bf5f080-7ec1-11eb-84cf-4a194bb47a14.png)
 
-<p align="center">Game Result</p>
-![image](https://user-images.githubusercontent.com/25089799/110226959-541e6c80-7ec1-11eb-8a93-918dac75d3ca.png)
+![image](https://user-images.githubusercontent.com/25089799/110227028-00f8e980-7ec2-11eb-8a89-775e929df45e.png)
+
+![image](https://user-images.githubusercontent.com/25089799/110227032-06eeca80-7ec2-11eb-82cf-af80a1cc6fba.png)
+
 	
 **Implementation Idea**
 * Implementing suggest move algorithm
