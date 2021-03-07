@@ -37,18 +37,17 @@
 **UI**
 
 * Login
+![image](https://user-images.githubusercontent.com/25089799/110227032-06eeca80-7ec2-11eb-82cf-af80a1cc6fba.png)
 
-![image](https://user-images.githubusercontent.com/25089799/110226959-541e6c80-7ec1-11eb-8a93-918dac75d3ca.png)
 
 * Login Fail
-
-![image](https://user-images.githubusercontent.com/25089799/110226968-6bf5f080-7ec1-11eb-84cf-4a194bb47a14.png)
-
-* Box Hover
 ![image](https://user-images.githubusercontent.com/25089799/110227028-00f8e980-7ec2-11eb-8a89-775e929df45e.png)
 
+* Box Hover
+![image](https://user-images.githubusercontent.com/25089799/110226968-6bf5f080-7ec1-11eb-84cf-4a194bb47a14.png)
+
 * Game Result
-![image](https://user-images.githubusercontent.com/25089799/110227032-06eeca80-7ec2-11eb-82cf-af80a1cc6fba.png)
+![image](https://user-images.githubusercontent.com/25089799/110226959-541e6c80-7ec1-11eb-8a93-918dac75d3ca.png)
 
 	
 **Implementation Idea**
